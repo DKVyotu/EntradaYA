@@ -171,6 +171,14 @@ a {
     border: solid 1px rgba(0, 0, 0, 0.20);
     border-radius: 10px;
 }
+.card-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(3, 8, 15, 0.100);
+    border-radius: 7px;
+}
 .card-eventos {
     display: flex;
     flex-direction: column;
@@ -349,6 +357,9 @@ a {
 .heip100 {
     height: 100%;
 }
+.heia {
+    height: auto;
+}
 .hei400 {
     height: 400px;
 }
@@ -397,6 +408,15 @@ a {
 /* ICONOS */
 .iconverde {
     color: #198754;
+}
+.iconazul {
+    color: #006eff;
+}
+.iconnegro {
+    color: #8f8f8f;
+}
+.icon24 {
+    font-size: 24px;
 }
 .icon100 {
     font-size: 100px;
