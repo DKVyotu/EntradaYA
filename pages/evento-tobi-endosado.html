@@ -82,25 +82,89 @@
             <!-- Informacion importante y personalizar -->
             <div class="wid800 padding25 fondoplomo">
                     
-                <h2 class="martop25 fs-2 fw-semibold text-center marbott25">Informacion Importante</h2>
+                <h2 class="martop25 fs-2 fw-semibold text-center marbott25">Personalizar Entradas</h2>
 
-                <!-- Alertas -->
-                <div class="alert alert-success text-center">
-                    Ya estas mas cerca de tener tu entrada.
-                </div>
-                <div class="alert alert-danger text-center">
-                    Nota Importante: Este evento está reservado exclusivamente para
-                    personas mayores de 18 años. Para asistir, se requerirá una
-                    identificación válida que demuestre la edad al momento de la entrada.
-                </div>
-                <div class="alert alert-warning text-center">
-                    Al PERSONALIZAR LAS ENTRADAS, podrás incluir los nombres de los asistentes.
-                    Es opcional y no supone un problema a la hora de acceder al evento.
-                    Si no lo haces, todas las entradas adquiridas llevarán tus datos.
-                </div>
+                <!-- Llenar entradas -->
+                <form class="row g-3 needs-validation was-validated alert alert-dark martop25">
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="fs-4"><strong>Entrada: </strong> General</h4> 
+                        <h6 class="">1 de 2</h6>
+                    </div>
+
+                    <div class="col-md-6">       
+                      <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6">       
+                      <input type="text" class="form-control" placeholder="Apellidos" required>
+                    </div>
+              
+                    <div class="col-md-6">       
+                      <input type="number" class="form-control" placeholder="Numero de Telefono" required>
+                    </div>
+                    <div class="col-md-6">       
+                      <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                  
+                    <div class="col-md-6 position-relative">
+                      <select class="form-select" id="validationTooltip04" required="">
+                        <option selected="" disabled="" value="">Tipo de Documento</option>
+                        <option>DNI</option>
+                        <option>Carnet de Extranjeria</option>
+                      </select>
+                    </div>              
+                    <div class="col-md-6">       
+                      <input type="number" class="form-control" placeholder="Documento" required>
+                    </div>
+                   
+                    <div class="col-12 d-flex">
+                      <a class="btn btn-outline-secondary fondoblanco widp100 marright25 marleft25" type="submit">Limpiar formulario</a>
+                      <a class="btn btn-outline-primary fondoblanco widp100 marright25 marleft25" type="submit">Siguiente</a>
+
+                    </div>
+                </form>
+
+                <form class="row g-3 needs-validation was-validated alert alert-dark martop25">
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="fs-4"><strong>Entrada: </strong> VIP 1</h4> 
+                        <h6 class="">2 de 2</h6>
+                    </div>
+
+                    <div class="col-md-6">       
+                      <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6">       
+                      <input type="text" class="form-control" placeholder="Apellidos" required>
+                    </div>
+              
+                    <div class="col-md-6">       
+                      <input type="number" class="form-control" placeholder="Numero de Telefono" required>
+                    </div>
+                    <div class="col-md-6">       
+                      <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                  
+                    <div class="col-md-6 position-relative">
+                      <select class="form-select" id="validationTooltip04" required="">
+                        <option selected="" disabled="" value="">Tipo de Documento</option>
+                        <option>DNI</option>
+                        <option>Carnet de Extranjeria</option>
+                      </select>
+                    </div>              
+                    <div class="col-md-6">       
+                      <input type="number" class="form-control" placeholder="Documento" required>
+                    </div>
+                   
+                    <div class="col-12 d-flex">
+                      <a class="btn btn-outline-secondary fondoblanco widp100 marright25 marleft25" type="submit">Limpiar formulario</a>
+                      <a class="btn btn-outline-primary fondoblanco widp100 marright25 marleft25" type="submit">Siguiente</a>
+
+                    </div>
+                </form>
 
                 <!-- Boton -->
-                <a href="../pages/evento-tobi-endosado.html" class="btn btn-warning widp100">Personalizar</a>
+                <a href="../pages/evento-tobi-pago.html" type="button" class="btn btn-primary widp100 martop25">Ir a Pagar</a>
                 
             </div>
 
@@ -117,36 +181,21 @@
                     
                     <!-- Resumen -->
                     <div class="card-cart marbott10">
-                        <div class="">
-                            <h4 class="fs-5">General</h4>
-                            <h4 class="fs-6">S/ 299.99</h4>
-                        </div>
-                        <div class="flex justify-content-center align-items-center ">
-                            <i class="iconnegro icon24 bi-dash-circle-fill"></i>
-                            <div class="fs-5 padding10">1</div>
-                            <i class="iconazul icon24 bi-plus-circle-fill"></i>
-                        </div>
+                        <div class="fs-5">General</div>
+                        <div class="fs-5 fw-semibold">X 1</div>
                     </div>
 
                     <div class="card-cart marbott10">
-                        <div class="">
-                            <h4 class="fs-5">VIP 1</h4>
-                            <h4 class="fs-6">S/ 49.99</h4>
-                        </div>
-                        <div class="flex justify-content-center align-items-center ">
-                            <i class="iconnegro icon24 bi-dash-circle-fill"></i>
-                            <div class="fs-5 padding10">1</div>
-                            <i class="iconazul icon24 bi-plus-circle-fill"></i>
-                        </div>
+                        <div class="fs-5">VIP 1</div>
+                        <div class="fs-5 fw-semibold">X 1</div>
+                        
                     </div>
 
                     <div class="card-cart fdirrow marbott10">
                         <div class="fs-5">Total:</div>
                         <div class="fs-6 fw-semibold">S/ 349.98</div>
                     </div>
-                    
-                    <!-- Boton -->
-                    <a href="../pages/evento-tobi-pago.html" class="btn btn-primary widp100">Continuar</a>
+               
                 </div>
                 
             </div>
