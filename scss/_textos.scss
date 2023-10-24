@@ -1,0 +1,38 @@
+
+.texblanco {
+	color: $color_3;
+}
+.texrojo {
+	color: $color_5;
+}
+.texnegro {
+	color: $color_1;
+}
+.texplomo {
+	color: $color_6;
+}
+.textonegrita {
+	font-weight: 700;
+}
+.texto13 {
+	font-size: 13px;
+}
+.texto25 {
+	font-size: 25px;
+}
+.textcard {
+	width: 250px;
+	height: 34px;
+}
+.pregunta {
+	text-align: left;
+	padding: 20px 350px 0px;
+	color: $color_3;
+	font-size: 25px;
+	font-weight: 700;
+}
+.respuesta {
+	text-align: left;
+	padding: 0px 350px 20px;
+	color: $color_3;
+}

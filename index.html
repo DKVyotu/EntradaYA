@@ -33,7 +33,7 @@
     <!-- Titulo -->
     <title>Entrada YA!</title>
 </head>
-  
+   
 <body class="gridfull">
     <header id="arriba"> 
         <nav id="nav" class="flex justevenly widp100">
@@ -49,7 +49,7 @@
                 <button class="boton-buscador">Buscar</button>
 
                 <!-- Categorias -->
-                <select id="cat-hd" class="marleft10 select135" name="Categorias">
+                <select id="cat-hd" class="ms-2 select135" name="Categorias">
                     <option value="Categoria1">Categorias</option>
                     <option value="Categoria2">Stand up</option>
                     <option value="Categoria3">Concierto</option>
@@ -68,7 +68,7 @@
 
             <!-- Login -->
             <div id="log" class="flex falitcenter">
-                <a class="marright10" href="./pages/login.html"><button class="botonlog">Iniciar sesion</button></a>
+                <a class="me-2" href="./pages/login.html"><button class="botonlog">Iniciar sesion</button></a>
                 <a href="./pages/registro.html"><button class="botonreg">Registrate</button></a>
             </div>
         </nav>
@@ -102,16 +102,19 @@
         </div>
 
         <!-- Todos los eventos -->
-        <div class="division marbott25 martop25"></div>
-        <div id="tde" class="flex fdirrow justbetween marbott25">
-            <h2 class="bordeiz100 texblanco fw-bold fs-3">Todos los Eventos</h2>
-            <select class="bordedr100 select135" name="Categorias">
-                <option value="Categoria1">Comedia</option>  
-                <option value="Categoria2">Stand up</option> 
-                <option value="Categoria3">Concierto</option>
-                <option value="Categoria4">Recreacion</option>
-            </select>
+        <div class="division my-4"></div>
+        <div class="flex just">
+            <div id="tde" class="flex justbetween mb-4 widp90">
+                <h2 class=" texblanco fw-bold fs-3">Todos los Eventos</h2>
+                <select class=" select135" name="Categorias">
+                    <option value="Categoria1">Comedia</option>  
+                    <option value="Categoria2">Stand up</option> 
+                    <option value="Categoria3">Concierto</option>
+                    <option value="Categoria4">Recreacion</option>
+                </select>
+            </div>
         </div>
+
         <!-- Card de eventos --> 
         <section class="flex just fwrap">
             
@@ -119,12 +122,12 @@
                 <a href="./pages/evento-tobi.html">
                     <div>
                         <img class="imgcard" src="./multimedia/el-tobi.jpg" alt="foto de el tobi">
-                        <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Eres Basura</h3>
+                        <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Eres Basura</h3>
                     </div>
                     <div>
-                        <div class="division marbott10"></div>
-                        <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                        <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                        <div class="division mb-2"></div>
+                        <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                        <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                         <button class="botonverde">Comprar</button>
                     </div>
                 </a>
@@ -133,12 +136,12 @@
                 <a href="./pages/evento-hh.html">
                     <div>
                         <img class="imgcard" src="./multimedia/hablando-huevadas.jpeg" alt="foto de hablando huevadas">
-                        <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Hablando Huevadas T22</h3>
+                        <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Hablando Huevadas T22</h3>
                     </div> 
                     <div>
-                        <div class="division marbott10"></div>
-                        <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                        <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                        <div class="division mb-2"></div>
+                        <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                        <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                         <button class="botonverde">Comprar</button>
                     </div>
                 </a>
@@ -147,12 +150,12 @@
                 <a href="./pages/404.html">
                     <div>
                         <img class="imgcard" src="./multimedia/franco-escamilla.jpg" alt="foto de franco escamilla">
-                        <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Franco escamilla en Peru</h3>
+                        <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Franco escamilla en Peru</h3>
                     </div>                    
                     <div>
-                        <div class="division marbott10"></div>
-                        <h4 class="padding10 fs-6">Fecha: 12/12/2023</h4>
-                        <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                        <div class="division mb-2"></div>
+                        <h4 class="p-1 fs-6">Fecha: 12/12/2023</h4>
+                        <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                         <button class="botonverde">Comprar</button>
                     </div>
                 </a>
@@ -161,12 +164,12 @@
                 <a href="./pages/noticias.html" target="_blank">
                     <div>
                         <img class="imgcard" src="./multimedia/grids.png" alt="foto de natalia lafurcade">
-                        <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Ejemplo de Grids</h3>
+                        <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Ejemplo de Grids</h3>
                     </div>                    
                     <div>
-                        <div class="division marbott10"></div>
-                        <h4 class="padding10 fs-6">Fecha: Hoy</h4>
-                        <h4 class="padding10 fs-6"><strong>Desde</strong> $ 199.99</h4>
+                        <div class="division mb-2"></div>
+                        <h4 class="p-1 fs-6">Fecha: Hoy</h4>
+                        <h4 class="p-1 fs-6"><strong>Desde</strong> $ 199.99</h4>
                         <button class="botonverde">Vender</button>
                     </div>
                 </a>
@@ -174,99 +177,98 @@
             <article class="card-eventos">
                 <div>
                     <img class="imgcard" src="./multimedia/el-tobi.jpg" alt="foto de el tobi">
-                    <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Eres Basura</h3>
+                    <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Eres Basura</h3>
                 </div>                    
                 <div>
-                    <div class="division marbott10"></div>
-                    <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                    <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                    <div class="division mb-2"></div>
+                    <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                    <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                     <button class="botonverde">Comprar</button>
                 </div>
             </article>
             <article class="card-eventos">
                 <div>
                     <img class="imgcard" src="./multimedia/hablando-huevadas.jpeg" alt="foto de hablando huevadas">
-                    <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Hablando Huevadas T22</h3>
+                    <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Hablando Huevadas T22</h3>
                 </div>                    
                 <div>
-                    <div class="division marbott10"></div>
-                    <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                    <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                    <div class="division mb-2"></div>
+                    <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                    <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                     <button class="botonverde">Comprar</button>
                 </div>
             </article>
             <article class="card-eventos">
                 <div>
                     <img class="imgcard" src="./multimedia/franco-escamilla.jpg" alt="foto de franco escamilla">
-                    <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Franco escamilla en Peru</h3>
+                    <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Franco escamilla en Peru</h3>
                 </div>                    
                 <div>
-                    <div class="division marbott10"></div>
-                    <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                    <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                    <div class="division mb-2"></div>
+                    <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                    <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                     <button class="botonverde">Comprar</button>
                 </div>
             </article>
             <article class="card-eventos">
                 <div>
                     <img class="imgcard" src="./multimedia/natalia-lafurcade.jpg" alt="foto de natalia lafurcade">
-                    <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Hasta la Raiz</h3>
+                    <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Hasta la Raiz</h3>
                 </div>                    
                 <div>
-                    <div class="division marbott10"></div>
-                    <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                    <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                    <div class="division mb-2"></div>
+                    <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                    <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                     <button class="botonverde">Comprar</button>
                 </div>
             </article>
             <article class="card-eventos">
 
                     <img class="imgcard" src="./multimedia/el-tobi.jpg" alt="foto de el tobi">
-                    <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Eres Basura</h3>
+                    <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Eres Basura</h3>
                 </div>                    
                 <div>
-                    <div class="division marbott10"></div>
-                    <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                    <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                    <div class="division mb-2"></div>
+                    <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                    <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                     <button class="botonverde">Comprar</button>
                 </div>
             </article>
             <article class="card-eventos">
                 <div>
                     <img class="imgcard" src="./multimedia/hablando-huevadas.jpeg" alt="foto de hablando huevadas">
-                    <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Hablando Huevadas T22</h3>
+                    <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Hablando Huevadas T22</h3>
                 </div>                    
                 <div>
-                    <div class="division marbott10"></div>
-                    <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                    <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                    <div class="division mb-2"></div>
+                    <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                    <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                     <button class="botonverde">Comprar</button>
                 </div>
             </article>  
             <article class="card-eventos">
                 <div>
                     <img class="imgcard" src="./multimedia/franco-escamilla.jpg" alt="foto de franco escamilla">
-                    <h3 class="padtop10 text-truncate textcard fs-5 fw-semibold">Franco escamilla en Peru</h3>
+                    <h3 class="pt-2 text-truncate textcard fs-5 fw-semibold">Franco escamilla en Peru</h3>
                 </div>                    
                 <div>
-                    <div class="division marbott10"></div>
-                    <h4 class="padding10 fs-6">Fecha 12/12/2023</h4>
-                    <h4 class="padding10 fs-6"><strong>Desde</strong> S/.399.33</h4>
+                    <div class="division mb-2"></div>
+                    <h4 class="p-1 fs-6">Fecha 12/12/2023</h4>
+                    <h4 class="p-1 fs-6"><strong>Desde</strong> S/.399.33</h4>
                     <button class="botonverde">Comprar</button>
                 </div>
             </article>
         </section>
         <!-- Mapa -->
-        <div>
-            <h2 class="textocentrado texblanco martop25">Encuentranos</h2>
-            <div class="flex falitcenter just widp100">
-                <iframe
-                    class="redondo10 margin25"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249744.04473505853!2d-77.15258802774115!3d-12.026254178774883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1694111404727!5m2!1ses-419!2spe"
-                    width="100%" height="600" style="border:10;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <a href="#arriba" class="flex just marbott25"><button class="botongn"> 🔼 Ir arriba 🔼 </button></a>
+        <div class="flex fdircolum falitcenter my-4">
+            <h2 class="textocentrado texblanco">Encuentranos</h2>
+            <iframe
+                class="redondo10 my-4  widp80"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249744.04473505853!2d-77.15258802774115!3d-12.026254178774883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1694111404727!5m2!1ses-419!2spe"
+                 height="600" style="border:10;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>            
+            <a href="#arriba" class="flex just"><button class="botongn"> 🔼 Ir arriba 🔼 </button></a>
         </div>
     </main>
     
@@ -276,16 +278,16 @@
         <div id="footdiv" class="flex fdirrow falitcenter justevenly widp100">
 
             <!-- Logo -->            
-            <a href="#arriba"><img class="margin25" src="./multimedia/logo-footer.png" alt="logo de la empresa" width="180px"></a>
+            <a href="#arriba"><img class="m-4" src="./multimedia/logo-footer.png" alt="logo de la empresa" width="180px"></a>
 
             <!-- Enlaces -->
             <div class="flex fdirrow">
-                <div class="textocentrado marright25">
+                <div class="textocentrado me-4">
                     <a class="texblanco" href="./pages/sobre-nosotros.html">Sobre nosotros</a><br>
                     <a class="texblanco" href="./pages/faq.html">Preguntas frecuentes</a><br>
                     <a class="texblanco" href="./pages/nuevo-evento.html">¿Tienes un Evento?</a><br>
                 </div>
-                <div class="textocentrado marleft25">
+                <div class="textocentrado ms-4">
                     <a class="texblanco" href="./pages/contacto.html">Contacto</a><br>
                     <a class="texblanco" href="./pages/politicas.html">Politicas de Privacidad</a><br>
                     <a class="texblanco" href="./pages/terminos.html">Terminos y Condiciones</a><br>
@@ -293,14 +295,14 @@
             </div>
             
             <!-- Redes -->
-            <div class="flex falitcenter margin10">
-                <img class="margin10" src="./multimedia/iconos/face.svg" alt="logo de Facebook">
-                <img class="margin10" src="./multimedia/iconos/insta.svg" alt="logo de Instagram">
-                <img class="margin10" src="./multimedia/iconos/link.svg" alt="logo de Linkedin">
-                <img class="margin10" src="./multimedia/iconos/wsp.svg" alt="logo de whatsapp">
+            <div class="flex falitcenter m-2">
+                <img class="m-2" src="./multimedia/iconos/face.svg" alt="logo de Facebook">
+                <img class="m-2" src="./multimedia/iconos/insta.svg" alt="logo de Instagram">
+                <img class="m-2" src="./multimedia/iconos/link.svg" alt="logo de Linkedin">
+                <img class="m-2" src="./multimedia/iconos/wsp.svg" alt="logo de whatsapp">
             </div>
         </div>
-        <p class="texblanco padbott10">©️ Todos los derechos reservados 2023</p>
+        <p class="texblanco pb-2">©️ Todos los derechos reservados 2023</p>
     </footer>
 
     <!-- Bootstrap -->

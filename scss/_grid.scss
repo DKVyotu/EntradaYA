@@ -1,0 +1,56 @@
+.gridfull {
+	display: grid;
+	height: 100vh;
+	grid-template-rows: 114.86px auto 203.28px;
+}
+.grid {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 300px 550px 300px;
+	grid-template-rows: repeat(8, 150px);
+	grid-template-areas: "h1 h1 h1" "n1 ng1 r1" "n2 ng1 sp" "n3 ng1 sp" "n4 ng1 sp" "n5 ng2 td" "n6 ng2 td" "n7 ng2 td" "n8 ng2 td";
+	text-align: center;
+	grid-gap: 10px;
+}
+.h1 {
+	grid-area: h1;
+}
+.r1 {
+	grid-area: r1;
+}
+.sp {
+	grid-area: sp;
+}
+.td {
+	grid-area: td;
+}
+.ng1 {
+	grid-area: ng1;
+}
+.ng2 {
+	grid-area: ng2;
+}
+.n1 {
+	grid-area: n1;
+}
+.n2 {
+	grid-area: n2;
+}
+.n3 {
+	grid-area: n3;
+}
+.n4 {
+	grid-area: n4;
+}
+.n5 {
+	grid-area: n5;
+}
+.n6 {
+	grid-area: n6;
+}
+.n7 {
+	grid-area: n7;
+}
+.n8 {
+	grid-area: n8;
+}

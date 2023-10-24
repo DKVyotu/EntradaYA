@@ -1,0 +1,91 @@
+// Fuentes
+$font-family_1: 'Poppins', sans-serif;
+
+// Colores
+$color_1: black;
+$color_2: gray;
+$color_3: white;
+$color_4: rgb(51, 51, 51);
+$color_5: red;
+$color_6: rgba(128, 128, 128, 0.5);
+$color_7: #198754;
+$color_8: #006eff;
+$color_9: #8f8f8f;
+
+$background-color_1: #0B1628;
+$background-color_2: #03080f;
+$background-color_3: #2c2c2c;
+$background-color_4: #007bff;
+$background-color_5: #0056b3;
+$background-color_6: #103e67;
+$background-color_7: #0d2c47;
+$background-color_8: white;
+$background-color_9: rgb(221, 221, 221);
+$background-color_10: #198754;
+$background-color_11: #0c6e40;
+$background-color_12: #ececec;
+$background-color_13: rgba(3, 8, 15, 0.100);
+$background-color_14: #95b3e0;
+$background-color_15: #e2e2e2;
+$background-color_16: #686868;
+
+// Ediciones
+li {
+	list-style: none;
+}
+a {
+	list-style: none;
+	color: $color_1;
+	text-decoration: none;
+}
+
+// Linea
+.division {
+	color: $color_2;
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+}
+
+
+
+
+.fondoblanco {
+	background-color: $background-color_8;
+}
+.fondonoticia {
+	background-color: $background-color_14;
+}
+.fondoplomo {
+	background-color: $background-color_15;
+}
+.fondoverde {
+	background-color: $background-color_10;
+}
+
+
+
+
+
+
+.bordedr100 {
+	margin-right: 100px;
+}
+.bordeiz100 {
+	margin-left: 100px;
+}
+
+
+
+
+
+
+// 404
+.eror404 {
+	text-align: center;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: $background-color_16;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

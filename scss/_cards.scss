@@ -1,0 +1,39 @@
+
+// Cards
+.card-blanca {
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+	border: solid 1px rgba(0, 0, 0, 0.20);
+	border-radius: 10px;
+	background-color: $background-color_8;
+}
+.card-compra {
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+	border: solid 1px rgba(0, 0, 0, 0.20);
+	border-radius: 10px;
+}
+.card-cart {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: $background-color_13;
+	border-radius: 7px;
+}
+.card-eventos {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 270px;
+	height: auto;
+	border-radius: 7px;
+	padding: 10px;
+	margin: 10px;
+	background-color: $background-color_8;
+	box-shadow: 0px 0px 10px 10px rgba(2, 2, 2, 0.50);
+	&:hover {
+		transform: scale(1.1);
+		transition: 0.4s;
+		box-shadow: 0px 0px 10px 10px rgba(2, 2, 2, 0.75);
+	}
+}
