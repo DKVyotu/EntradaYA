@@ -1,0 +1,17 @@
+// Ediciones
+li {
+	list-style: none;
+}
+a {
+	list-style: none;
+	color: $color_1;
+	text-decoration: none;
+}
+
+// Linea
+.division {
+	color: $color_2;
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+}

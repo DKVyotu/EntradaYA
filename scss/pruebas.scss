@@ -1,0 +1,12 @@
+$redes: (
+    patata: #ff0000,
+    batata: #00ff2a,
+    camote: #0011ff
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red} 
+    {
+        background-color: $color;
+    }
+}

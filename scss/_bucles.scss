@@ -1,0 +1,14 @@
+@for $i from 1 through 10 {
+    .widp#{$i}0     
+    {
+        width: 10% * $i
+    }
+}
+
+@for $i from 1 through 10 {
+    .heip#{$i}0 
+    {
+        height: 10% * $i
+    }
+}
+

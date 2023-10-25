@@ -1,0 +1,38 @@
+//  botones
+
+.boton {
+    background-color: $color_3;
+    color: $color_4;
+	padding: 10px;
+    border: none;
+	border-radius: 5px;
+	font-size: 16px;    
+	font-weight: 700;
+	&:hover {
+		box-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.2) inset;
+	}
+}
+
+
+
+.boton-buscador {
+	@extend .boton;
+	border-radius: 0px 5px 5px 0px;    
+	font-weight: 400;
+	background-color: $background-color_4;
+	color: $color_3;
+}
+.botonverde {
+	@extend .boton;
+	background-color: $background-color_10;
+	color: $color_3;
+}
+.botonlog {
+	@extend .boton;
+	background-color: $background-color_6;
+	color: $color_3;
+}
+.botonreg {
+	@extend .boton;
+	background-color: $background-color_8;
+}

@@ -1,18 +1,25 @@
  @import "reset";
- @import "variables"; 
+ @import "variables";
+ @import "mapas"; 
+ @import "condicionales";
+ @import "bucles";
+ @import "extend"; 
  @import "body";
 
  @import "flex";
  @import "grid";
  @import "iconos";  
- @import "botones";
+ @import "fondos";  
+ @import "ediciones";  
+ @import "e404";  
+ @import "mixins";  
  @import "select";
  @import "cards";
  @import "textos";
  @import "imagenes";
  @import "medidas";
  @import "bordes_redondos";
- 
+
  @import "header";
  @import "main";
  @import "footer";
