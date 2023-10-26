@@ -1,15 +1,15 @@
 
 .texblanco {
-	color: $color_3;
+	color: $color_blanco;
 }
 .texrojo {
-	color: $color_5;
+	color: $color_rojo;
 }
 .texnegro {
-	color: $color_1;
+	color: $color_negro;
 }
 .texplomo {
-	color: $color_6;
+	color: $color_plomo;
 }
 .textonegrita {
 	font-weight: 700;
@@ -27,12 +27,12 @@
 .pregunta {
 	text-align: left;
 	padding: 20px 350px 0px;
-	color: $color_3;
+	color: $color_blanco;
 	font-size: 25px;
 	font-weight: 700;
 }
 .respuesta {
 	text-align: left;
 	padding: 0px 350px 20px;
-	color: $color_3;
+	color: $color_blanco;
 }

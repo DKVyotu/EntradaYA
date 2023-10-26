@@ -91,7 +91,7 @@
 
 .boton, .botonreg, .botonlog, .botonverde, .boton-buscador {
   background-color: white;
-  color: rgb(51, 51, 51);
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -105,7 +105,7 @@
 .boton-buscador {
   border-radius: 0px 5px 5px 0px;
   font-weight: 400;
-  background-color: #007bff;
+  background-color: #006eff;
   color: white;
 }
 
@@ -302,10 +302,6 @@ body {
   background-color: #e2e2e2;
 }
 
-.fondoverde {
-  background-color: #198754;
-}
-
 li {
   list-style: none;
 }
@@ -317,7 +313,7 @@ a {
 }
 
 .division {
-  color: gray;
+  color: #8f8f8f;
   width: 100%;
   border-style: solid;
   border-width: 2px;
@@ -327,7 +323,7 @@ a {
   text-align: center;
   margin-top: 100px;
   padding: 20px;
-  background-color: #686868;
+  background-color: #8f8f8f;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -349,7 +345,7 @@ a {
   cursor: pointer;
 }
 .select100p:hover {
-  background-color: #ececec;
+  box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.2) inset;
 }
 
 .select135 {
@@ -362,13 +358,13 @@ a {
   cursor: pointer;
 }
 .select135:hover {
-  background-color: #ececec;
+  box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.2) inset;
 }
 
 .card-cart {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(3, 8, 15, 0.1);
+  background-color: #e2e2e2;
   padding: 10px;
   border-radius: 7px;
   align-items: center;
@@ -406,7 +402,7 @@ a {
 }
 
 .texplomo {
-  color: rgba(128, 128, 128, 0.5);
+  color: #8f8f8f;
 }
 
 .textonegrita {

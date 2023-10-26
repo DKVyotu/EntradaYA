@@ -1,8 +1,8 @@
 //  botones
 
 .boton {
-    background-color: $color_3;
-    color: $color_4;
+    background-color: $color_blanco;
+    color: $color_negro;
 	padding: 10px;
     border: none;
 	border-radius: 5px;
@@ -19,20 +19,20 @@
 	@extend .boton;
 	border-radius: 0px 5px 5px 0px;    
 	font-weight: 400;
-	background-color: $background-color_4;
-	color: $color_3;
+	background-color: $color_celeste;
+	color: $color_blanco;
 }
 .botonverde {
 	@extend .boton;
-	background-color: $background-color_10;
-	color: $color_3;
+	background-color: $color_verde;
+	color: $color_blanco;
 }
 .botonlog {
 	@extend .boton;
-	background-color: $background-color_6;
-	color: $color_3;
+	background-color: $color-login;
+	color: $color_blanco;
 }
 .botonreg {
 	@extend .boton;
-	background-color: $background-color_8;
+	background-color: $color_blanco;
 }
