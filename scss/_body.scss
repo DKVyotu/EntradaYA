@@ -2,3 +2,12 @@ body {
 	font-family: $fuente-poppins; 
 	background-color: $color_body;
 }
+
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+
+*::-webkit-scrollbar-thumb {
+    background-color:  $color-plomo-bg;
+    border-radius: 10px;
+  }

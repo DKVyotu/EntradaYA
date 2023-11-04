@@ -17,6 +17,9 @@
 
 .boton-buscador {
 	@extend .boton;
+	padding: 5.5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 0px 5px 5px 0px;    
 	font-weight: 400;
 	background-color: $color_celeste;

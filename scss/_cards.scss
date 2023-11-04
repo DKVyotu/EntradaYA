@@ -20,9 +20,9 @@
 	height: auto;
 	margin: 10px;
 	box-shadow: 0px 0px 10px 10px rgba(2, 2, 2, 0.50);
+	transition: 0.4s;
 	&:hover {
 		transform: scale(1.1);
-		transition: 0.4s;
 		box-shadow: 0px 0px 10px 10px rgba(2, 2, 2, 0.75);
 	}
 }
